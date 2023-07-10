@@ -1,0 +1,145 @@
+*{
+margin: 0px;
+font-family: Lato;
+}
+
+.banner {
+    
+    padding: 30px 30px 0px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #E554731A;
+}
+
+
+
+
+
+.banner-title{
+display: flex;
+width: 708px;
+flex-direction: column;
+flex-shrink: 0;
+color: #272727;
+font-size: 80px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+padding:10px 5px;
+}
+
+.banner-text{
+color: rgba(39, 39, 39, 0.60);
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+padding:10px 5px;
+}
+
+.button-shop{
+display: inline-flex;
+padding: 20px 43px;
+align-items: flex-start;
+gap: 10px;
+border-radius: 8px;
+background: #E55473;
+color: white;
+font-size: 18px;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+  justify-content: center;
+  align-items: center;
+height: 449px;
+flex-shrink: 0;
+background-color: black;
+color: white;
+text-align: center;
+}
+
+.footer-title{
+color: #E55473;
+font-size: 48px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+padding: 20px;
+}
+
+.footer-text .copyright{
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.copyright{
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 15px;
+}
+
+.text-white{
+    color: white !important;
+}
+
+.section-title {
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.section-description {
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+}
+
+.flowers-container{
+    display: flex;
+    gap: 24px;
+    justify-content: bottom;
+}
+
+.flower {
+    padding: 30px;
+    height: 471px;
+    border-radius:300px 300px 0px 0px;
+    
+}
+
+.flower img{
+    position: relative;
+  bottom: 0;
+}
+
+.flower-title{
+    text-align: center;
+    padding: 20px;
+}
+
+.light-pink{
+background-color: lightpink;
+}
+.light-blue{
+    background-color: lightskyblue;
+}
+.light-gray{
+    background-color: lightgray;
+}
+
+.underline{
+    text-decoration: underline;
+}
+
