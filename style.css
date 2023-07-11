@@ -3,13 +3,26 @@ margin: 0px;
 font-family: Lato;
 }
 
+main {
+/*    max-width: 1140px;
+*/    margin: 0 auto;
+}
+
+    main section {
+        margin-top: 130px;
+        justify-content:center;
+        align-content:center;
+        align-content:center;
+    }
+
 .banner {
     
-    padding: 30px 30px 0px 150px;
+    padding: 30px 30px 0px 30px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     background-color: #E554731A;
+    padding:0px 180px;
 }
 
 
@@ -49,16 +62,20 @@ color: white;
 font-size: 18px;
 }
 
-.footer{
+.flower-pic {
+    width:500px;
+}
+
+.footer {
     display: flex;
     flex-direction: column;
-  justify-content: center;
-  align-items: center;
-height: 449px;
-flex-shrink: 0;
-background-color: black;
-color: white;
-text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 449px;
+    flex-shrink: 0;
+    background-color: black;
+    color: white;
+    text-align: center;
 }
 
 .footer-title{
@@ -104,24 +121,28 @@ padding: 20px;
     color: #757575;
     text-align: center;
     font-size: 18px;
+    padding: 30px 0px 30px 0px;
 }
 
 .flowers-container{
     display: flex;
     gap: 24px;
-    justify-content: bottom;
+    justify-content: center;
+    align-items:center
 }
 
 .flower {
     padding: 30px;
     height: 471px;
     border-radius:300px 300px 0px 0px;
-    
 }
 
-.flower img{
-    position: relative;
-  bottom: 0;
+.flower-insta {
+    width: 300px;
+height: 380px;
+flex-shrink: 0;
+padding: 20px;
+
 }
 
 .flower-title{
@@ -143,3 +164,115 @@ background-color: lightpink;
     text-decoration: underline;
 }
 
+.flower {
+    position: relative;
+    height: 420px; /* Adjust the height of the parent div as needed */
+    width: 320px
+}
+
+.flower img {
+    position: absolute;
+    bottom: 0px; /* Adjust the distance from the bottom as needed */
+}
+
+.featured-flower-head {
+    padding: 50px;
+    width: 600px;
+    height: 132px;
+
+}
+
+.deal {
+    /* width: 100%; */
+    /* padding: 100px 100px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #E554731A;
+    
+}
+
+.deal-container {
+width:50%;
+align-items:center;
+align-content:center;
+padding:50px;
+}
+
+
+    .deal-title {
+    display: flex;
+    width: 708px;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: #272727;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    padding: 10px 5px;
+}
+
+.deal-text {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 10px 5px;
+}
+
+.services{
+    padding:150px;
+    margin: 50px 80px;
+    background-color: lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.services-list{
+    display: flex;
+    flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.latest-news{
+    background-image: url('FlowerAsset/Rectangle\ 9.png');
+    background-repeat:no-repeat;
+    background-size: fit;
+    padding:150px;
+    margin: 50px 80px;
+  background-position: center;
+}
+
+.subscribe{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 0px 150px;
+}
+
+.latest-news input[type="text"], .contact input[type="email"],
+textarea {
+    display: block;
+    margin-bottom: 25px;
+    padding:15px 30px;
+    color: #757575;
+    border-radius: 5px;
+    background: #FFF;
+    border: 0;
+    width: 500px;
+}
+
+.button-subscribe{
+padding: 8px 20px;
+align-items: flex-start;
+gap: 10px;
+border-radius: 5px;
+background: #E55473;
+color: white;
+font-size: 15px;
+height:46px;
+}
