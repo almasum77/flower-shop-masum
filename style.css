@@ -196,9 +196,15 @@ background-color: lightpink;
 width:50%;
 align-items:center;
 align-content:center;
+justify-content: center;
 padding:50px;
 }
 
+.deal-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
     .deal-title {
     display: flex;
